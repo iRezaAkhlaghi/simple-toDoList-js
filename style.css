@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f7e1d7;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.search {
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: aliceblue;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.title {
+    font-size: 20px;
+
+}
+
+
+.addInp {
+    width: 100%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: aliceblue;
+}
+
+.Add {
+    background-color: #edafb8;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.delete{
+    background-color: #edafb8;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.delete:hover {
+    scale: 1.02;
+}
